@@ -3,15 +3,14 @@ import java.util.ArrayList;
 class Solution {
     public static int numJewelsInStones(String jewels, String stones) {
         int result = 0;
-        List<String> listJ = new ArrayList<String>(Arrays.asList(jewels.split("")));
-        List<String> listS = new ArrayList<String>(Arrays.asList(stones.split("")));
-        int i = 0;
-        while(i < listJ.size()) {
-            while(listS.contains(listJ.get(i))) {
-                listS.remove(listJ.get(i));
+        List<String> listJ = new ArrayList<>(Arrays.asList(jewels.split("")));
+        List<String> listS = new ArrayList<>(Arrays.asList(stones.split("")));
+
+        for (String jewel : listJ) {
+            while (listS.contains(jewel)) {
+                listS.remove(jewel);
                 result++;
             }
-            i++;
         }
         return result;
     }
