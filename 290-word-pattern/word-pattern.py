@@ -10,7 +10,7 @@ class Solution(object):
         list = s.split(" ")
         if len(pattern) != len(list):
             return False
-        for i in range(len(pattern)):
+        for i in range(0, len(pattern)):
             if pattern[i] not in dict.keys() and list[j] not in dict.values():
                 dict[pattern[i]] = list[j]
                 j += 1
