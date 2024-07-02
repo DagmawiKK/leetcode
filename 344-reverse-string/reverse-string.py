@@ -5,6 +5,5 @@ class Solution:
         """
         i = 0
         for char in s[::-1]:
-            s.pop(i)
-            s.insert(i, char)
+            s[i] = char
             i +=1
