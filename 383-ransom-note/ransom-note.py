@@ -3,7 +3,7 @@ class Solution:
         magazine = list(magazine)
         for item in ransomNote:
             if item in magazine:
-                magazine[magazine.index(item)] = '-'
+                magazine.remove(item)
                 continue
             else:
                 return False
