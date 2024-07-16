@@ -5,7 +5,4 @@ class Solution:
         def sort_str(my_str):
             return int(my_str[-1])
         lst.sort(key=sort_str)
-        string = ""
-        for i in lst:
-            string = string + i[:len(i) - 1] + " "
-        return string.strip()
+        return ' '.join(word[:-1] for word in lst)
