@@ -6,6 +6,7 @@ class Solution:
             result.append(nums.index(target))
         except ValueError:
             return []
+        
         count = nums.count(target)
 
         for i in range(count - 1):
