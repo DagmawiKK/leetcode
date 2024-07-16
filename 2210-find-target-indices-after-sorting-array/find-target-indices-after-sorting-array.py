@@ -6,9 +6,8 @@ class Solution:
             result.append(nums.index(target))
         except ValueError:
             return []
-        val = nums.index(target) + 1
+        count = nums.count(target)
 
-        while val < len(nums)and nums[val] == target :
+        for i in range(count - 1):
             result.append(result[-1] + 1)
-            val += 1
         return result
