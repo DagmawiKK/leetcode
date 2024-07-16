@@ -6,12 +6,9 @@ class Solution:
             result.append(nums.index(target))
         except ValueError:
             return []
-
         val = nums.index(target) + 1
 
-        if val < len(nums):
-        
-            while val < len(nums)and nums[val] == target :
-                result.append(result[-1] + 1)
-                val += 1
+        while val < len(nums)and nums[val] == target :
+            result.append(result[-1] + 1)
+            val += 1
         return result
