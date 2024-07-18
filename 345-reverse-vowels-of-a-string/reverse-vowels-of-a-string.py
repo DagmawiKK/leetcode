@@ -30,4 +30,4 @@ class Solution:
                 pt2 -=1
                 pt1 +=1
             i += 1
-        return ''.join(map(str, strList))
+        return ''.join(strList)
