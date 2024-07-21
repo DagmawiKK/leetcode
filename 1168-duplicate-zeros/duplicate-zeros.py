@@ -6,7 +6,7 @@ class Solution:
         if 0 in arr:
             i = 0
             while i < len(arr):
-                if arr[i] == 0 and i < len(arr)-1:
+                if arr[i] == 0:
                     arr.insert(i + 1, 0)
                     arr.pop()
                     i += 1
