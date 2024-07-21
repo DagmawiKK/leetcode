@@ -12,12 +12,5 @@ class Solution:
         for i in range(2, n-1):
             string_rep = converter(n, i)
             if len(string_rep) % 2 != 0: return False
-            left = 0
-            right = len(string_rep) - 1
-            
-            while left < right:
-                if string_rep[left] != string_rep[right]:
-                    return False
-                left += 1
-                right -=1
+            if string_rep != reversed(string_rep): return False
         return True
