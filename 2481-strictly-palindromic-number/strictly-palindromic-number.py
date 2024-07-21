@@ -11,6 +11,5 @@ class Solution:
             return ''.join(reversed(nums))
         for i in range(2, n-1):
             string_rep = converter(n, i)
-            if len(string_rep) % 2 != 0: return False
             if string_rep != reversed(string_rep): return False
         return True
