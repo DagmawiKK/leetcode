@@ -11,9 +11,10 @@ class Solution:
             return ''.join(reversed(nums))
         for i in range(2, n-1):
             string_rep = converter(n, i)
+            if len(string_rep) % 2 != 0: return False
             left = 0
             right = len(string_rep) - 1
-            if len(string_rep) % 2 != 0: return False
+            
             while left < right:
                 if string_rep[left] != string_rep[right]:
                     return False
