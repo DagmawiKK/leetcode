@@ -5,8 +5,6 @@ class Solution:
                 return 0
             else:
                 return len(nums)-1
-        if nums.count(0) == 1:
-            return len(nums) - 1
         result = 0
         zero = 0
         left = 0
