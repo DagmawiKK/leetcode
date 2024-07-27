@@ -1,10 +1,5 @@
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
-        if len(set(nums)) == 1:
-            if nums[0] == 0:
-                return 0
-            else:
-                return len(nums)-1
         result = 0
         zero = 0
         left = 0
