@@ -6,8 +6,5 @@ class Solution:
             result[s - 1] += seats  
             if e < n:
                 result[e] -= seats  
-
-        for i in range(1, n):
-            result[i] += result[i - 1]
         
-        return result
+        return accumulate(result)
