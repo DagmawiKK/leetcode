@@ -1,16 +1,23 @@
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
-        a = 0
-        while a < len(nums) - 1:
-            if nums[a] == nums[a + 1]:
-                nums[a] = nums[a] * 2
-                nums[a + 1] = 0
-            a +=1
+        i = 0
+        while i < len(nums) - 1:
+            if nums[i] == nums[i+1]:
+                nums[i] = nums[i] * 2
+                nums[i+1] = 0
+                i += 2
+                continue
+            i += 1
 
-        b = 0
+        left = 0
+        for right in range(len(nums)):
+            if nums[right] != 0:
+                nums[left] = nums[right]
+                if right > left:
 
-        for i in range(len(nums)):
-            if nums[i] != 0:
-                nums[b], nums[i] = nums[i], nums[b]
-                b += 1
+                    nums[right] = 0
+                left += 1
         return nums
+        
+
+            
