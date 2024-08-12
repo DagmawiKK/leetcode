@@ -5,10 +5,9 @@ class Solution:
         for i in s:
             if i == "(":
                 stack.append(i)
-            if i == ")":
+                result = max(result, len(stack))
+            elif i == ")":
                 stack.pop()
-            result = max(result, len(stack))
-            
         return result
             
             
