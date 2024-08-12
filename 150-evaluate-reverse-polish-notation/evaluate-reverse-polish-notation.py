@@ -8,18 +8,12 @@ class Solution:
             else:
                 secondNum = stack.pop()
                 firstNum = stack.pop() 
-                match i:
-                    case "*":
-                        stack.append(firstNum * secondNum)
-                        continue
-                    case "+":
-                        stack.append(firstNum + secondNum)
-                        continue
-                    case "-":
-                        stack.append(firstNum - secondNum)
-                        continue
-                    case "/":
-
-                        stack.append(int(firstNum / secondNum))
-                        continue
+                if i == "*":
+                    stack.append(firstNum * secondNum)
+                elif i == "+":
+                    stack.append(firstNum + secondNum)
+                elif i == "-":
+                    stack.append(firstNum - secondNum)
+                else:
+                    stack.append(int(firstNum / secondNum))
         return stack[0]
