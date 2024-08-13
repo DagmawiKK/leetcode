@@ -1,12 +1,12 @@
 class Solution:
     def simplifyPath(self, path: str) -> str:
         stack = []
-        mypath = path.split("/")
-        for i in mypath:
-            if i != "" and i != ".." and i != ".":
-                stack.append(i)
-            elif i == ".." and stack :
+        for directory in path.split("/"):
+            if directory != ".." and directory != "" and directory != ".":
+                stack.append(directory)
+            elif stack and directory == "..":
                 stack.pop()
-        return '/' + '/'.join(stack)
+        return "/" + "/".join(stack)
+        
 
 
