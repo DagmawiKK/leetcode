@@ -7,13 +7,6 @@ class Solution:
                 stack.append(int(i))
             else:
                 secondNum = stack.pop()
-                firstNum = stack.pop() 
-                if i == "*":
-                    stack.append(firstNum * secondNum)
-                elif i == "+":
-                    stack.append(firstNum + secondNum)
-                elif i == "-":
-                    stack.append(firstNum - secondNum)
-                else:
-                    stack.append(int(firstNum / secondNum))
+                firstNum = stack.pop()
+                stack.append(int(eval(f"{firstNum} {i} {secondNum}")))
         return stack[0]
