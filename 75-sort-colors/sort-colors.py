@@ -3,15 +3,21 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        colors = [0, 1, 2]
-        left = 0
 
-        for i in range(len(colors)):
-            right = 0
-            while right < len(nums):
-                if nums[right] == colors[i]:
-                    temp = nums[left]
-                    nums[left] = nums[right]
-                    nums[right] = temp
-                    left += 1
-                right += 1
+        low = 0
+        high = len(nums) - 1
+        mid = 0
+
+        while mid <= high:
+
+            if nums[mid] == 2:
+                nums[mid], nums[high] = nums[high], nums[mid]
+                high -= 1
+            elif nums[mid] == 0:
+                nums[mid], nums[low] = nums[low], nums[mid]
+                mid += 1
+                low += 1
+            else:
+                mid += 1
+
+
