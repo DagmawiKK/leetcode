@@ -1,13 +1,15 @@
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
-        n = len(names)
-        
-        for i in range(n):
-            max_idx = i
-            for j in range(i + 1, n):
-                if heights[j] > heights[max_idx]:
-                    max_idx = j
-            
-            heights[i], heights[max_idx] = heights[max_idx], heights[i]
-            names[i], names[max_idx] = names[max_idx], names[i]
-        return names
+        def bubblesort(heights, names):
+            unsorted_until_index = len(heights) - 1
+            sorted = False
+            while not sorted:
+                sorted = True
+                for i in range(unsorted_until_index):
+                    if heights[i] < heights[i+1]:
+                        sorted = False
+                        heights[i], heights[i+1] = heights[i+1], heights[i]
+                        names[i], names[i+1] = names[i+1], names[i]
+                unsorted_until_index = unsorted_until_index - 1
+            return names
+        return bubblesort(heights, names)
