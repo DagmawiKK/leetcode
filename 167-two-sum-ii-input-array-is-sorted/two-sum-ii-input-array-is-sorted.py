@@ -9,7 +9,4 @@ class Solution:
             elif numbers[right] + numbers[left] < target:
                 left += 1
             else:
-                result.append([left + 1, right + 1])
-                left += 1
-                right -= 1
-        return result[0]
+                return [left + 1, right + 1]
