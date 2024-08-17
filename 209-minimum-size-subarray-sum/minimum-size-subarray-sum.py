@@ -1,7 +1,7 @@
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
         left = 0
-        result = 10**9
+        result = float('inf')
         total = 0 
         for right in range(len(nums)):
             total += nums[right]
@@ -10,7 +10,7 @@ class Solution:
                 result = min(result, right - left+1)
                 left += 1
                 
-        if result == 10**9:
+        if result == float('inf'):
             return 0
 
         return result
