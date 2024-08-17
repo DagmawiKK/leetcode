@@ -1,20 +1,13 @@
 class Solution:
     def minimumRecolors(self, blocks: str, k: int) -> int:
-        minimum = 101
-        current = 0
-        
-        for i in range(k):
-            if blocks[i] == 'W':
-                current += 1
-        
-        minimum = min(minimum, current)
-        
-        for i in range(k, len(blocks)):
-            if blocks[i - k] == 'W':
-                current -= 1
-            if blocks[i] == 'W':
-                current += 1
-            minimum = min(minimum, current)
-        
-        return minimum
-
+        operation = blocks[:k].count("W")
+        result = operation
+        left = 0
+        for right in range(k, len(blocks)):
+            if blocks[left] == "W":
+                operation -= 1
+            if blocks[right] == "W":
+                operation += 1
+            left += 1
+            result = min(result, operation)
+        return result
