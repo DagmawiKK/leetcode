@@ -10,7 +10,4 @@ class Solution:
                 result = min(result, right - left+1)
                 left += 1
                 
-        if result == float('inf'):
-            return 0
-
-        return result
+        return result if result != float('inf') else 0
