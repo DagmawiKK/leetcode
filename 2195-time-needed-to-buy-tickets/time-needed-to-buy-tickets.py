@@ -1,18 +1,18 @@
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
-        
-        count = 0
-        left = 0
-        while tickets[k] > 0:
-            if left == len(tickets):
-                left = 0
+        queue = deque((i, tickets[i]) for i in range(len(tickets)))
+        time = 0
+        while queue:
+            index, value = queue.popleft()
+            value -= 1
 
-            tickets[left] -= 1
+            if index == k and value == 0:
+                time += 1
+                return time
             
-            if tickets[left] < 0:
-                left += 1
-                continue
-            left += 1
-            count += 1
-        return count
+            if value > 0:
+                queue.append((index, value))
 
+            time += 1
+
+        return time
