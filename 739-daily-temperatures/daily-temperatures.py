@@ -4,7 +4,6 @@ class Solution:
         result = []
         for i, temp in enumerate(reversed(temperatures)):
             while stack and stack[-1][1] <= temp:
-                print(stack[-1])
                 stack.pop()
             if stack:
                
