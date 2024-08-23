@@ -3,14 +3,9 @@ class Solution:
         stack = []
         n = len(nums)
         result = [-1]*n
-
         for i in range(n*2):
-            num = nums[i%n]
-
-            while stack and nums[stack[-1]] < num:
-                result[stack.pop()] = num
-            
-            if i < n:
-                stack.append(i)
-
+            i = i%n
+            while stack and nums[stack[-1]] < nums[i]:
+                result[stack.pop()] = nums[i]
+            stack.append(i)
         return result
