@@ -1,23 +1,23 @@
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
-        rangeArr = [0] * (len(s) + 1)
-
-        for start, end, direction in shifts:
-            if direction == 1:
-                rangeArr[start] += direction
-                if end + 1 < len(rangeArr):
-                    rangeArr[end + 1] -= direction
+        nums=list(map(lambda char:ord(char)-97,s))
+        base = [0] * (len(nums) + 1)
+        for query in shifts:
+            start,end,dirc =query
+            if dirc == 1:
+                base[start]+=1
+                if end + 1 < len(base):
+                    base[end+1] -= 1
             else:
-                rangeArr[start] -= 1
-                if end + 1 < len(rangeArr):
-                    rangeArr[end + 1] += 1
-        
-        for i in range(1, len(rangeArr)):
-            rangeArr[i] += rangeArr[i-1]
-        for i in range(len(s)):
-            shift = rangeArr[i] % 26  
-            rangeArr[i] = chr((ord(s[i]) - ord('a') + shift) % 26 + ord('a'))
-        return "".join(rangeArr[:len(s)])
+                base[start]-=1
+                if end + 1 < len(base):
+                    base[end+1] += 1
+        base = list(accumulate(base))
+        for i in range(len(nums)):
+            nums[i]+=base[i]
+            nums[i]=chr((nums[i]%26)+97)
+        return "".join(nums)
+
 
 
              
