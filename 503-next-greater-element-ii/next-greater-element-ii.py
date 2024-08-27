@@ -7,7 +7,7 @@ class Solution:
         for i in range(n*2):
             i = i%n
             while stack and nums[stack[-1]] < nums[i]:
-                index = stack.pop() 
+                index = stack.pop()
                 result[index] = nums[i]
             stack.append(i)
         
