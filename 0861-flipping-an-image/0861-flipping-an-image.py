@@ -6,10 +6,7 @@ class Solution:
 
             while i <= j:
                 if row[i] == row[j]:
-                    if row[i] == 0:
-                        row[j] = row[i] = 1
-                    else:
-                        row[j] = row[i] = 0
+                    row[i] = row[j] = 1 - row[i]
                 i += 1
                 j -= 1
 
