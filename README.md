@@ -11,12 +11,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/DagmawiKK/leetcode/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/DagmawiKK/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
+| [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 | [2551-apply-operations-to-an-array](https://github.com/DagmawiKK/leetcode/tree/master/2551-apply-operations-to-an-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/DagmawiKK/leetcode/tree/master/0036-valid-sudoku) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
+| [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -47,4 +49,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/DagmawiKK/leetcode/tree/master/0048-rotate-image) |
+## String
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
+## Sorting
+|  |
+| ------- |
+| [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 <!---LeetCode Topics End-->
