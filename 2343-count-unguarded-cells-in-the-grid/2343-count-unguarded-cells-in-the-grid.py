@@ -12,8 +12,7 @@ class Solution:
             while 0 <= row < m and 0 <= col < n:
                 if array[row][col] == "W" or array[row][col] == "G":
                     break
-                if array[row][col] == 0:
-                    array[row][col] = 1
+                array[row][col] = 1
                 row += directionX
                 col += directionY
 
