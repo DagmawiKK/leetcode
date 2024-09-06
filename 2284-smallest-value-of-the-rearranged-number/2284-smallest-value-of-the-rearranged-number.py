@@ -4,7 +4,7 @@ class Solution:
         if num < 0:
             negative = True
             num *= -1
-        num = sorted(list(str(num)), key = lambda x : int(x))
+        num = sorted(str(num), key = lambda x : int(x))
 
         if negative:
             num = reversed(num)
@@ -16,7 +16,6 @@ class Solution:
             i += 1
         result = num[i:]
 
-
-        result.insert(1, "0"*i )
+        result[1:1] = ["0"] * i
 
         return int("".join(result))
