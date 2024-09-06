@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/DagmawiKK/leetcode/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
+| [1651-shuffle-string](https://github.com/DagmawiKK/leetcode/tree/master/1651-shuffle-string) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/DagmawiKK/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/DagmawiKK/leetcode/tree/master/0125-valid-palindrome) |
 | [0387-first-unique-character-in-a-string](https://github.com/DagmawiKK/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/DagmawiKK/leetcode/tree/master/0412-fizz-buzz) |
+| [1651-shuffle-string](https://github.com/DagmawiKK/leetcode/tree/master/1651-shuffle-string) |
 | [1970-sorting-the-sentence](https://github.com/DagmawiKK/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Sorting
