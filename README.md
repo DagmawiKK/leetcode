@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/DagmawiKK/leetcode/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
+| [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1961-maximum-ice-cream-bars](https://github.com/DagmawiKK/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/DagmawiKK/leetcode/tree/master/0048-rotate-image) |
+| [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/DagmawiKK/leetcode/tree/master/2284-smallest-value-of-the-rearranged-number) |
 ## String
 |  |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/DagmawiKK/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1961-maximum-ice-cream-bars](https://github.com/DagmawiKK/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [1970-sorting-the-sentence](https://github.com/DagmawiKK/leetcode/tree/master/1970-sorting-the-sentence) |
@@ -87,5 +90,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1961-maximum-ice-cream-bars](https://github.com/DagmawiKK/leetcode/tree/master/1961-maximum-ice-cream-bars) |
+## Game Theory
+|  |
+| ------- |
+| [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 <!---LeetCode Topics End-->
