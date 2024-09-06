@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/DagmawiKK/leetcode/tree/master/0412-fizz-buzz) |
 | [0861-flipping-an-image](https://github.com/DagmawiKK/leetcode/tree/master/0861-flipping-an-image) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/DagmawiKK/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2551-apply-operations-to-an-array](https://github.com/DagmawiKK/leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/DagmawiKK/leetcode/tree/master/0048-rotate-image) |
+| [0412-fizz-buzz](https://github.com/DagmawiKK/leetcode/tree/master/0412-fizz-buzz) |
 | [1014-k-closest-points-to-origin](https://github.com/DagmawiKK/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/DagmawiKK/leetcode/tree/master/2284-smallest-value-of-the-rearranged-number) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/DagmawiKK/leetcode/tree/master/0125-valid-palindrome) |
+| [0412-fizz-buzz](https://github.com/DagmawiKK/leetcode/tree/master/0412-fizz-buzz) |
 | [1970-sorting-the-sentence](https://github.com/DagmawiKK/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Sorting
