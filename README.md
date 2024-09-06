@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0861-flipping-an-image](https://github.com/DagmawiKK/leetcode/tree/master/0861-flipping-an-image) |
 | [0978-valid-mountain-array](https://github.com/DagmawiKK/leetcode/tree/master/0978-valid-mountain-array) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1491-number-of-times-binary-string-is-prefix-aligned](https://github.com/DagmawiKK/leetcode/tree/master/1491-number-of-times-binary-string-is-prefix-aligned) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/DagmawiKK/leetcode/tree/master/0036-valid-sudoku) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DagmawiKK/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Prefix Sum
@@ -64,12 +66,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/DagmawiKK/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Counting Sort
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
+| [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Binary Search
 |  |
 | ------- |
