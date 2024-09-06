@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/DagmawiKK/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 | [2551-apply-operations-to-an-array](https://github.com/DagmawiKK/leetcode/tree/master/2551-apply-operations-to-an-array) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/DagmawiKK/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/DagmawiKK/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -44,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0350-intersection-of-two-arrays-ii](https://github.com/DagmawiKK/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0861-flipping-an-image](https://github.com/DagmawiKK/leetcode/tree/master/0861-flipping-an-image) |
 | [2551-apply-operations-to-an-array](https://github.com/DagmawiKK/leetcode/tree/master/2551-apply-operations-to-an-array) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/DagmawiKK/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Simulation
 |  |
 | ------- |
@@ -87,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1970-sorting-the-sentence](https://github.com/DagmawiKK/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2284-smallest-value-of-the-rearranged-number](https://github.com/DagmawiKK/leetcode/tree/master/2284-smallest-value-of-the-rearranged-number) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/DagmawiKK/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Counting Sort
 |  |
 | ------- |
