@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/DagmawiKK/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1813-maximum-erasure-value](https://github.com/DagmawiKK/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1961-maximum-ice-cream-bars](https://github.com/DagmawiKK/leetcode/tree/master/1961-maximum-ice-cream-bars) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/DagmawiKK/leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/DagmawiKK/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [1813-maximum-erasure-value](https://github.com/DagmawiKK/leetcode/tree/master/1813-maximum-erasure-value) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/DagmawiKK/leetcode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -152,4 +154,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0438-find-all-anagrams-in-a-string](https://github.com/DagmawiKK/leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/DagmawiKK/leetcode/tree/master/0567-permutation-in-string) |
+| [1813-maximum-erasure-value](https://github.com/DagmawiKK/leetcode/tree/master/1813-maximum-erasure-value) |
 <!---LeetCode Topics End-->
