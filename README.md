@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1651-shuffle-string](https://github.com/DagmawiKK/leetcode/tree/master/1651-shuffle-string) |
 | [1683-maximum-number-of-coins-you-can-get](https://github.com/DagmawiKK/leetcode/tree/master/1683-maximum-number-of-coins-you-can-get) |
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/DagmawiKK/leetcode/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DagmawiKK/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/DagmawiKK/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/DagmawiKK/leetcode/tree/master/1813-maximum-erasure-value) |
 | [1961-maximum-ice-cream-bars](https://github.com/DagmawiKK/leetcode/tree/master/1961-maximum-ice-cream-bars) |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0782-jewels-and-stones](https://github.com/DagmawiKK/leetcode/tree/master/0782-jewels-and-stones) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DagmawiKK/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/DagmawiKK/leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1813-maximum-erasure-value](https://github.com/DagmawiKK/leetcode/tree/master/1813-maximum-erasure-value) |
 | [2005-check-if-all-the-integers-in-a-range-are-covered](https://github.com/DagmawiKK/leetcode/tree/master/2005-check-if-all-the-integers-in-a-range-are-covered) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0861-flipping-an-image](https://github.com/DagmawiKK/leetcode/tree/master/0861-flipping-an-image) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DagmawiKK/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Math
 |  |
 | ------- |
@@ -96,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/DagmawiKK/leetcode/tree/master/0567-permutation-in-string) |
 | [0782-jewels-and-stones](https://github.com/DagmawiKK/leetcode/tree/master/0782-jewels-and-stones) |
 | [1651-shuffle-string](https://github.com/DagmawiKK/leetcode/tree/master/1651-shuffle-string) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DagmawiKK/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1970-sorting-the-sentence](https://github.com/DagmawiKK/leetcode/tree/master/1970-sorting-the-sentence) |
 | [2502-sort-the-people](https://github.com/DagmawiKK/leetcode/tree/master/2502-sort-the-people) |
 ## Sorting
@@ -120,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/DagmawiKK/leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [1217-relative-sort-array](https://github.com/DagmawiKK/leetcode/tree/master/1217-relative-sort-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/DagmawiKK/leetcode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1786-count-the-number-of-consistent-strings](https://github.com/DagmawiKK/leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 ## Binary Search
 |  |
 | ------- |
