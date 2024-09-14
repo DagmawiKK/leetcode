@@ -4,7 +4,7 @@ class Solution:
         right = len(nums) - 1
         left = 0
         while left <= right:
-            if -nums[left] > nums[right]:
+            if -1 * nums[left] > nums[right]:
                 result.append(nums[left] ** 2)
                 left += 1
             else:
