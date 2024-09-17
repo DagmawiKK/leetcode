@@ -3,11 +3,7 @@ class Solution:
         if len(s2) < len(s1):
             return False
         
-        pCount, sCount = defaultdict(int), defaultdict(int)
-
-        for i in range(len(s1)):
-            pCount[s1[i]] += 1
-            sCount[s2[i]] += 1
+        pCount, sCount = Counter(s1), Counter(s2[:len(s1)])
 
         if pCount == sCount:
             return True
